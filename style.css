@@ -4,47 +4,133 @@ Date: 16-08-2024
 Version: BP01
 */
 
-body{
+body {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.header, .footer{
+.header {
     background-color: #1f2937;
-    padding: 10px  100px;
+    padding: 10px 200px;
 }
 
-.logo-links{
-  display: flex;
-  justify-content: space-between; 
+.logo-links {
+    display: flex;
+    justify-content: space-between;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
 }
 
-.main-text{
+.main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-a, .body-text{
+a,
+.body-text {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header-left{
+.header-left {
     display: flex;
     justify-content: space-between;
 }
 
-.header-text-area{
-    max-width: 680px;
+.header-text-area {
+    max-width: 500px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 200px;
+}
+
+.mid-sec-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+.card-image {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+}
+
+.quote-section,
+.quote-by {
+    background-color: #e5e7eb;
+    padding: 20px 200px;
+}
+
+.quote-section {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-by {
+    font-size: 24px;
+    font-style: bolder;
+    color: #1f2937;
+    text-align: right;
+}
+
+.cta {
+    padding: 40px 200px;
+}
+
+.cta-main {
+    padding: 30px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
+    color: #e5e7eb;
+    gap: 20px;
+}
+
+.cta-text {
+    max-width: 500px;
+}
+
+button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 30px 200px;
 }
